@@ -1,0 +1,42 @@
+.menu-cliente{
+    margin: 0 auto;
+    width: 35%;
+    margin-top: 4rem;
+    text-align: center;
+    color: black;
+    
+}
+
+.collection {
+    margin: 0.5rem 0 1rem 0;
+    overflow: hidden;
+    position: relative;
+}
+
+/* .collection .collection-item:last-child {
+    border-bottom: none;
+} */
+.collection a.collection-item {
+    display: block;
+    transition: .25s;
+}
+.collection .collection-item {
+    background-color: rgb(180, 241, 241);
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 700;
+    border: 1.5px solid black;
+}
+.collection-item {
+    color: black !important;
+}
+
+.collection a.collection-item:not(.active):hover {
+    background: rgb(241, 237, 234);
+    color: black;
+}

@@ -1,0 +1,16 @@
+.p-menubar {
+    padding: 0.5rem;
+    background: aqua;
+    border: 0px solid #ffffff;
+    border-radius: 0px;
+    justify-content:space-between;  
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+    color: #000000;
+}
+
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover {
+    background: #fafafa;
+}
