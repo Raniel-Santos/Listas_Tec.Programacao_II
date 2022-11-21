@@ -6,4 +6,13 @@
 
 
 <h2> 📑 Estrutura  </h2>
+- Branch Lista_01 : [Primeira lista](https://github.com/Raniel-Santos/Listas_Tec.Programacao_II/tree/Lista_01); <br>
+ 
+ - Branch Lista_02 : [Segunda lista](https://github.com/Raniel-Santos/Listas_Tec.Programacao_II/tree/Lista_02); <br>
+ 
+ - Branch Lista_03 : [Terceira lista](https://github.com/Raniel-Santos/Listas_Tec.Programacao_II/tree/Lista_03); <br>
+ 
+ - Branch Lista_04 : [Quarta lista](https://github.com/Raniel-Santos/Listas_Tec.Programacao_II/tree/Lista_04); <br>
+ 
+ 
 
