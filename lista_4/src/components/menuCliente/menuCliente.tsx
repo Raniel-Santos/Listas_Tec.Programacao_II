@@ -7,8 +7,9 @@ const MenuCliente: React.FC = () =>{
         <div className="menu-cliente">
         <h1>Cadastro de Clientes </h1>
             <div className="collection home">
-                <Link to={'/novo-cliente'}className="collection-item pointer">Novo Cliente</Link>
-                <Link to={'/funcao3'}className="collection-item pointer">Listagem de Todos os Clientes</Link>  
+                <Link to={'/novo-cliente'}className="collection-item pointer">Cadastrar Cliente Titular</Link>
+                <Link to={'/novo-dependente'}className="collection-item pointer">Cadastrar Dependente</Link>  
+                <Link to={'/funcao3'}className="collection-item pointer">Editar Cliente</Link>    
             </div>
         </div>    
     )

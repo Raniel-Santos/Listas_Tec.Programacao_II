@@ -37,11 +37,6 @@ const NovoCliente: React.FC = () =>{
         docSelecionado(e.value);
     }
 
-    // --- Dependentes ---
-    const [nomeDependente, setNomeDependente] = useState('');
-    const [nomeSocialDependente, setNomeSocialDependente] = useState('')
-    const [dataNascimentoDependente, setdataNascimentoDependente] = useState('')
-
     return(
         <div className="accordion-demo menu-novo-cliente">
             <h1>Novo Cliente</h1>
@@ -102,21 +97,8 @@ const NovoCliente: React.FC = () =>{
                             <InputNumber className='dados-pessoais numero' placeholder='Número do Documento' value={documento}  />                        
                         </span>
                     </AccordionTab>
-                </Accordion>              
+                </Accordion>            
 
-                <Accordion className="accordion-custom" activeIndex={3}>
-                    <AccordionTab header={<React.Fragment><i className="pi pi-share-alt"></i><span>Dependentes</span></React.Fragment>}>
-                        <span className="dados-pessoais">
-                            <InputText className='dados-pessoais'placeholder='Nome Dependente' value={nomeDependente} onChange={(e) => setNomeDependente(e.target.value)} />                           
-                        </span>
-                        <span className="dados-pessoais">
-                            <InputText className='dados-pessoais'placeholder='Nome Social' value={nomeSocialDependente} onChange={(e) => setNomeSocialDependente(e.target.value)} />                           
-                        </span>
-                        <span className="dados-pessoais">
-                            <InputMask className='dados-pessoais' mask="99/99/9999" value={dataNascimentoDependente} placeholder="Data Nascimento" onChange={(e) => setdataNascimentoDependente(e.value)}></InputMask>                           
-                        </span>
-                    </AccordionTab>
-                </Accordion>
             </div>
 
                 <div className="button-demo btn-cadastro">

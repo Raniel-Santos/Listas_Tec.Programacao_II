@@ -1,0 +1,10 @@
+{
+    "data": [
+        {"nome": "Gersinho", "nomeTitular":"Gerson", "documento": "5545","dataNascimento": "01/01/1901"},
+        {"nome": "Hudson Bode", "nomeTitular":"Rafael", "documento": "554","dataNascimento": "01/01/0001"},
+        {"nome": "Caim", "nomeTitular":"Rafael", "documento": "545","dataNascimento": "01/01/1901"},
+        {"nome": "Abel", "nomeTitular":"Rafael", "documento": "5454","dataNascimento": "01/01/1901"},
+        {"nome": "Raninho", "nomeTitular":"Raniel", "documento": "4904545454","dataNascimento": "06/06/1993"}      
+    
+    ]
+}

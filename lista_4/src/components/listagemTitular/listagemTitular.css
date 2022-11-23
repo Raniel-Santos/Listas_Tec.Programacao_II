@@ -1,0 +1,38 @@
+.menu-listagem{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 4rem;
+    margin-bottom: 4rem !important;
+    text-align: center;
+    color: black;
+    
+}
+
+.p-datatable{
+    margin-top: 4rem;
+    border: solid 0.1px rgb(230, 224, 224);
+    border-radius: 3px;
+}
+
+.p-datatable .p-column-header-content {
+    display:block;
+    align-items: center;
+}
+
+.p-datatable .p-datatable-thead > tr > th {    
+    text-align: center !important;
+    padding: 1rem 1rem;
+    border: 1px solid #dee2e6;
+    border-width: 0 0 1px 0;
+    font-weight: 700;
+    color: #343a40;
+    background: rgb(180, 241, 241);
+    transition: box-shadow 0.2s;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+    text-align: center;
+    border: 1px solid #dee2e6;
+    border-width: 0 0 1px 0;
+    padding: 1rem 1rem;
+}
