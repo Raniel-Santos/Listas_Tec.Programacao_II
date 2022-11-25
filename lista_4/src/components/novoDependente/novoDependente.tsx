@@ -22,7 +22,7 @@ const NovoDependente: React.FC = ()=>{
         { tipo: 'PASSAPORTE', code: 'LDN' }
     ]
     const tipoDoc= (e: { value: any}) => {
-        docSelecionado(e.value);
+        setdocSelecionado(e.value);
     }
 
     // --- Dependentes ---

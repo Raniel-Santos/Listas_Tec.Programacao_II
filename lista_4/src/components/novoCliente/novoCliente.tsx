@@ -27,14 +27,14 @@ const NovoCliente: React.FC = () =>{
 
     // --- Documentos ---
     const [documento,setDocumento] = useState(null)
-    const [docSelecionado, setdocSelecionado] = useState<any>(null);
+    const [docSelecionado, setDocSelecionado] = useState<any>(null);
     const docs = [
-        { tipo: 'RG', code: 'NY' },
-        { tipo: 'CPF', code: 'RM' },
-        { tipo: 'PASSAPORTE', code: 'LDN' }
+        { tipo: 'RG' },
+        { tipo: 'CPF' },
+        { tipo: 'PASSAPORTE' }
     ]
     const tipoDoc= (e: { value: any}) => {
-        docSelecionado(e.value);
+        setDocSelecionado(e.value);
     }
 
     return(
@@ -92,7 +92,7 @@ const NovoCliente: React.FC = () =>{
 
                 <Accordion className="accordion-custom" activeIndex={2}>
                     <AccordionTab header={<React.Fragment><i className="pi pi-copy"></i><span>Documentos</span></React.Fragment>}>
-                        <Dropdown className='dados-pessoais' value={docSelecionado} options={docs} onChange={tipoDoc} optionLabel="tipo" placeholder="Tipo de Documento" />
+                        <Dropdown className='dropdown-demo dados-pessoais' value={docSelecionado} options={docs} onChange={tipoDoc} optionLabel="tipo" placeholder="Tipo de Documento" />
                         <span className="dados-pessoais">                            
                             <InputNumber className='dados-pessoais numero' placeholder='Número do Documento' value={documento}  />                        
                         </span>

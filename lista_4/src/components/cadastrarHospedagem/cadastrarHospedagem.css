@@ -1,0 +1,32 @@
+.menu-hospedagem{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 4rem;
+    text-align: center;
+    color: black;
+    
+}
+
+.dados-hospedagem{
+    width: 50%;
+    text-align: left !important;
+    margin-bottom: 0.8rem;
+}
+
+.campos-hospedagem1{
+    margin-top: 4rem;
+}
+
+.btn-cadastro-hospedagem{
+    margin-top: 2rem;
+}
+
+.p-button {
+    color: black;
+    background: rgb(180, 241, 241);
+    border: 1px solid rgb(5, 5, 5);
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    border-radius: 6px;
+}

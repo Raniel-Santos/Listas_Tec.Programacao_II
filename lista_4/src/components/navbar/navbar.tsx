@@ -23,7 +23,7 @@ const Navbar: React.FC = (props) =>{
         {
           label: "Hospedagens",
           command: (event: any) => {
-          navigate("/menu-hospedagens");
+          navigate("/cadastrar-hospedagem");
           },
         },
         {
