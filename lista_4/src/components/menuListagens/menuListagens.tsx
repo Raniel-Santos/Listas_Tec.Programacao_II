@@ -8,7 +8,8 @@ const MenuListagens: React.FC = () =>{
         <h1>Listagens</h1>
             <div className="collection home">
                 <Link to={'/listagem-titular'}className="collection-item pointer">Listagem Titulares</Link>
-                <Link to={'/listagem-dependente'}className="collection-item pointer">Listagem Dependentes</Link>  
+                <Link to={'/listagem-dependente'}className="collection-item pointer">Listagem Dependentes</Link>
+                <Link to={'/listagem-hospedagem'} className="collection-item pointer">Listagem de Acomodações</Link>
             </div>
         </div>    
     )

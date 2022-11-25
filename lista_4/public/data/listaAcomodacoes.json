@@ -1,0 +1,11 @@
+{
+    "data": [        
+            {"nomeAcomodacao": "Casal Simples", "camaSolteiro": "0", "camaCasal":"1", "suite": "1", "climatizacao": "Sim", "garagem": "1"},
+            {"nomeAcomodacao": "Familia Simples", "camaSolteiro": "2", "camaCasal":"1", "suite": "1", "climatizacao": "Sim", "garagem": "1"},
+            {"nomeAcomodacao": "Familia Mais", "camaSolteiro": "5", "camaCasal":"1", "suite": "2", "climatizacao": "Sim", "garagem": "2"},
+            {"nomeAcomodacao": "Familia Super", "camaSolteiro": "6", "camaCasal":"2", "suite": "3", "climatizacao": "Sim", "garagem": "2"},
+            {"nomeAcomodacao": "Solteiro Simples", "camaSolteiro": "1", "camaCasal":"0", "suite": "1", "climatizacao": "Sim", "garagem": "0"},
+            {"nomeAcomodacao": "Solteiro Mais", "camaSolteiro": "0", "camaCasal":"1", "suite": "1", "climatizacao": "Sim", "garagem": "1"}        
+        ]
+
+}

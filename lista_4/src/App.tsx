@@ -11,6 +11,7 @@ import NovoDependente from './components/novoDependente/novoDependente'
 import MenuListagens from './components/menuListagens/menuListagens';
 import ListagemTitular from './components/listagemTitular/listagemTitular';
 import ListagemDependente from './components/listagemDependentes/listagemDependentes';
+import ListagemAcomodacoes from './components/listagemAcomodacoes/listagemAcomodacoes';
 
 // Função App() {
   type state = {
@@ -45,6 +46,7 @@ import ListagemDependente from './components/listagemDependentes/listagemDepende
               <Route path='menu-listagens' element={<MenuListagens/>}/>
               <Route path='listagem-dependente' element={<ListagemDependente/>}/>
               <Route path='listagem-titular' element={<ListagemTitular/>}/>
+              <Route path='listagem-hospedagem' element={<ListagemAcomodacoes/>}/>
               <Route path='novo-cliente' element={<NovoCliente/>}/>
               <Route path='novo-dependente' element={<NovoDependente/>}/>
             </Routes>

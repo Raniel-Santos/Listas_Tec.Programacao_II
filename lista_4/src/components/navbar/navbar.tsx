@@ -9,33 +9,33 @@ const Navbar: React.FC = (props) =>{
     // --- Botões Navbar ---
     const itemsNavbar = [
         {
-          label: "Botao",
+          label: "Home",
           command: (event: any) => {
           navigate("/");
           },
         },
         {
-          label: "Botao",
+          label: "Clientes",
           command: (event: any) => {
-          navigate("/");
+          navigate("/menu-cliente");
           },
         },
         {
-          label: "Botao",
+          label: "Hospedagens",
           command: (event: any) => {
-          navigate("/");
+          navigate("/menu-hospedagens");
           },
         },
         {
-          label: "Botao",
+          label: "Listagens",
           command: (event: any) => {
-          navigate("/");
+          navigate("/menu-listagens");
           },
-        }, 
+        }        
       ];
     // --- Logo Atlantis ---
     const end = (
-      <a href="">
+      <a href="/">
         <img
           alt="logo"
           src={Atlantis}
