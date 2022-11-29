@@ -21,15 +21,15 @@ const Navbar: React.FC = (props) =>{
           },
         },
         {
-          label: "Hospedagens",
-          command: (event: any) => {
-          navigate("/cadastrar-hospedagem");
-          },
-        },
-        {
           label: "Listagens",
           command: (event: any) => {
           navigate("/menu-listagens");
+          },
+        },
+        {
+          label: "Hospedagem",
+          command: (event: any) => {
+          navigate("/cadastrar-hospedagem");
           },
         }        
       ];

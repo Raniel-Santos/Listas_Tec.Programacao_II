@@ -10,6 +10,7 @@ const MenuListagens: React.FC = () =>{
                 <Link to={'/listagem-titular'}className="collection-item pointer">Listagem Titulares</Link>
                 <Link to={'/listagem-dependente'}className="collection-item pointer">Listagem Dependentes</Link>
                 <Link to={'/listagem-hospedagem'} className="collection-item pointer">Listagem de Acomodações</Link>
+                <Link to={'/listagem-hospedes'} className="collection-item pointer">Listagem de Hóspedes</Link>
             </div>
         </div>    
     )

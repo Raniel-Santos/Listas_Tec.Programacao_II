@@ -28,7 +28,7 @@ const NovoDependente: React.FC = ()=>{
     // --- Dependentes ---
     const [nomeDependente, setNomeDependente] = useState('');
     const [nomeSocialDependente, setNomeSocialDependente] = useState('')
-    const [dataNascimentoDependente, setdataNascimentoDependente] = useState('')
+    const [dataNascimentoDependente, setdataNascimentoDependente] = useState<string|undefined>()
 
     return(
         <div className="accordion-demo menu-novo-dependente">
@@ -69,7 +69,7 @@ const NovoDependente: React.FC = ()=>{
                 </Accordion>  
 
                 <div className="button-demo btn-cadastro-dependente">
-                    <Button label="Cadastrar Cliente" icon="pi pi-check" />              
+                    <Button label="Cadastrar Dependente" icon="pi pi-check" />              
                 </div>    
             </div>
         </div>

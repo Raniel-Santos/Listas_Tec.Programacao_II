@@ -13,6 +13,8 @@ import ListagemTitular from './components/listagemTitular/listagemTitular';
 import ListagemDependente from './components/listagemDependentes/listagemDependentes';
 import ListagemAcomodacoes from './components/listagemAcomodacoes/listagemAcomodacoes';
 import CadastrarHospedagem from './components/cadastrarHospedagem/cadastrarHospedagem';
+import ListagemHospedagem from './components/listagemHospedagem/listagemHospedagem';
+import TitularInfo from './components/titularInfo/titularInfo';
 
 // Função App() {
   type state = {
@@ -48,9 +50,11 @@ import CadastrarHospedagem from './components/cadastrarHospedagem/cadastrarHospe
               <Route path='listagem-dependente' element={<ListagemDependente/>}/>
               <Route path='listagem-titular' element={<ListagemTitular/>}/>
               <Route path='listagem-hospedagem' element={<ListagemAcomodacoes/>}/>
+              <Route path='listagem-hospedes' element={<ListagemHospedagem/>}/>
               <Route path='cadastrar-hospedagem' element={<CadastrarHospedagem/>}/>
               <Route path='novo-cliente' element={<NovoCliente/>}/>
               <Route path='novo-dependente' element={<NovoDependente/>}/>
+              <Route path='titular-info' element={<TitularInfo/>}/>
             </Routes>
           </BrowserRouter>        
       </div>

@@ -38,7 +38,7 @@ const CadastrarHospedagem: React.FC = () =>{
                 </span>
             </div>
             <div className="button-demo btn-cadastro-hospedagem">
-                <Button label="Cadastrar Cliente" icon="pi pi-check" />              
+                <Button label="Registrar Hóspede" icon="pi pi-check" />              
             </div>    
         </div>
     )

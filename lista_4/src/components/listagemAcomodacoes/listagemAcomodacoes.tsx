@@ -1,10 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Accordion, AccordionTab } from 'primereact/accordion';
-import { Button } from 'primereact/button';
-import { InputText } from 'primereact/inputtext';
-import { InputMask } from 'primereact/inputmask';
-import { InputNumber } from 'primereact/inputnumber';
-import { Dropdown } from 'primereact/dropdown';
 import './listagemAcomodacoes.css'
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
@@ -12,11 +6,11 @@ import { Column } from 'primereact/column';
 const ListagemAcomodacoes: React.FC = () =>{
     // --- Dados da Acomodação ---
     const [acomodacao,setAcomodacao] = useState([])
-    const [camaSolteiro,setCamaSolteiro] = useState(null)
-    const [camaCasal,setCamaCasal] = useState(null)
-    const [suite,setSuite] = useState(null)
-    const [climatizacao,setClimatizacao] = useState(null)
-    const [garagem,setGaragem] = useState(null)
+    // const [camaSolteiro,setCamaSolteiro] = useState(null)
+    // const [camaCasal,setCamaCasal] = useState(null)
+    // const [suite,setSuite] = useState(null)
+    // const [climatizacao,setClimatizacao] = useState(null)
+    // const [garagem,setGaragem] = useState(null)
 
     class ProductService {          
     

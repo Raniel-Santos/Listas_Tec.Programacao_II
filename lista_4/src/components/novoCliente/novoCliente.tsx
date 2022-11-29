@@ -12,18 +12,17 @@ const NovoCliente: React.FC = () =>{
     // --- Dados Pessoais ---
     const [nome, setNome] = useState('');
     const [nomeSocial, setNomeSocial] = useState('')
-    const [dataNascimento, setdataNascimento] = useState('')
-    const [dataCadastro, setdataCadastro] = useState('')
-    const [telefones, setTelefones] = useState([])
+    const [dataNascimento, setdataNascimento] = useState<string|undefined>()
+    const [dataCadastro, setdataCadastro] = useState<string|undefined>()
+    const [telefones, setTelefones] = useState<string|undefined>()
 
     // --- Endereço ---
     const [pais, setPais] = useState('')
     const [estado, setEstado] = useState('')
     const [cidade, setCidade] = useState('')
     const [bairro, setBairro] = useState('')
-    const [rua, setRua] = useState('')
-    const [numero, setNumero] = useState(null)
-    const [cep,setCep] = useState('')
+    const [rua, setRua] = useState('')   
+    const [cep,setCep] = useState<string|undefined>()
 
     // --- Documentos ---
     const [documento,setDocumento] = useState(null)
@@ -81,11 +80,8 @@ const NovoCliente: React.FC = () =>{
                         <span className="dados-pessoais">
                                 <InputText className='dados-pessoais'placeholder='Rua' value={rua} onChange={(e) => setRua(e.target.value)} />                           
                         </span>
-                        <span className="dados-pessoais">                            
-                            <InputNumber className='dados-pessoais numero' placeholder='Número' value={numero}  />                        
-                        </span>
                         <span className="dados-pessoais">
-                            <InputMask className='dados-pessoais' mask="99.999-999" value={cep} placeholder="CEP"></InputMask>                      
+                            <InputMask className='dados-pessoais' mask="99.999-999" value={cep} placeholder="Código Postal"></InputMask>                      
                         </span>
                     </AccordionTab>
                 </Accordion>
