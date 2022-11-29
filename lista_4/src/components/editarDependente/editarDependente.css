@@ -1,0 +1,52 @@
+.menu-editar-dependente{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 4rem;
+    text-align: center;
+    color: black;
+    
+}
+
+.accordion-demo .accordion-custom i, .accordion-demo .accordion-custom span {
+    vertical-align: middle;
+}
+
+.accordion-demo .accordion-custom span {
+    margin: 0 .5rem;
+}
+
+.accordion-demo .p-accordion p {
+    line-height: 1.5;
+    margin: 0;
+}
+
+.dados-pessoais-dependentes{
+    width: 50%;
+    text-align: left !important;
+    margin-bottom: 0.8rem;
+}
+
+.numero{
+    margin-bottom: 0.8rem !important; 
+}
+
+
+.btn-cadastro-dependente{
+    margin-top: 2rem;
+}
+
+.p-button {
+    color: black;
+    background: rgb(180, 241, 241);
+    border: 1px solid rgb(5, 5, 5);
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    border-radius: 6px;
+}
+
+.p-button:enabled:hover, .p-button:not(button):not(a):not(.p-disabled):hover {
+    background: aqua;
+    color: #ffffff;
+    border-color: aqua;
+}

@@ -1,4 +1,4 @@
-.menu-novo-cliente{
+.menu-editar-titular{
     margin: 0 auto;
     width: 50%;
     margin-top: 4rem;
@@ -38,8 +38,8 @@
 
 .p-accordion .p-accordion-header .p-accordion-header-link {
     padding: 1.25rem;
-    border: 1px solid #dee2e6;
-    color: #6c757d;
+    border: 1px solid #000000;
+    color: #000000;
     background: rgb(180, 241, 241);
     font-weight: 700;
     border-radius: 6px;
@@ -53,7 +53,7 @@
 }
 
 .p-accordion .p-accordion-header:not(.p-disabled).p-highlight:hover .p-accordion-header-link {
-    border-color: #dee2e6;
+    border-color: #000000;
     background: rgb(58, 211, 211);
     color: #343a40;
 }
@@ -78,7 +78,7 @@
 }
 
 .p-button:enabled:hover, .p-button:not(button):not(a):not(.p-disabled):hover {
-    background: aqua;
+    background: rgb(72, 236, 236);
     color: #ffffff;
-    border-color: aqua;
+    border-color: rgb(0, 0, 0);
 }

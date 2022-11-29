@@ -15,6 +15,8 @@ import ListagemAcomodacoes from './components/listagemAcomodacoes/listagemAcomod
 import CadastrarHospedagem from './components/cadastrarHospedagem/cadastrarHospedagem';
 import ListagemHospedagem from './components/listagemHospedagem/listagemHospedagem';
 import TitularInfo from './components/titularInfo/titularInfo';
+import EditarTitular from './components/editarTitular/editarTitular';
+import EditarDependente from './components/editarDependente/editarDependente';
 
 // Função App() {
   type state = {
@@ -55,6 +57,8 @@ import TitularInfo from './components/titularInfo/titularInfo';
               <Route path='novo-cliente' element={<NovoCliente/>}/>
               <Route path='novo-dependente' element={<NovoDependente/>}/>
               <Route path='titular-info' element={<TitularInfo/>}/>
+              <Route path='editar-titular' element={<EditarTitular/>}/>
+              <Route path='editar-dependente' element={<EditarDependente/>}/>
             </Routes>
           </BrowserRouter>        
       </div>

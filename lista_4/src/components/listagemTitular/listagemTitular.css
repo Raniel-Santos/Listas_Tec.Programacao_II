@@ -36,3 +36,16 @@
     border-width: 0 0 1px 0;
     padding: 1rem 1rem;
 }
+
+.p-button.p-button-outlined {
+    background-color: transparent;    
+    border: 1px solid;
+    margin-right: 0.4rem;
+}
+
+.p-button.p-button-info.p-button-outlined, .p-buttonset.p-button-info > .p-button.p-button-outlined, .p-splitbutton.p-button-info > .p-button.p-button-outlined, .p-fileupload-choose.p-button-info.p-button-outlined {
+    background-color: transparent;
+    color: rgb(180, 241, 241);
+    border: 1px solid;
+}
+

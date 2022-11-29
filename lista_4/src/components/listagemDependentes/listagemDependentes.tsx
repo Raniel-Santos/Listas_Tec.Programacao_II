@@ -2,9 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import "./listagemDependentes.css"
+import { Navigate, useNavigate } from 'react-router';
+import { Button } from 'primereact/button';
 
 const ListagemDependente: React.FC = ()=>{
     const [dependentes, setDependentes] = useState([])
+    const navigate = useNavigate();
 
     class ProductService {          
     
@@ -13,6 +16,28 @@ const ListagemDependente: React.FC = ()=>{
         }
     }
     const productService = new ProductService();
+
+    const editarDependente = () =>{
+        navigate('/editar-dependente')
+    }
+
+    const actionBodyTemplate = () => {
+        return (
+            <React.Fragment>               
+                <Button
+                    icon="pi pi-pencil" 
+                    className="p-button-rounded p-button-outlined p-button-info " 
+                    onClick={editarDependente}
+                    tooltip='Editar Dependente' tooltipOptions={{position: 'top'}}
+                />
+                <Button
+                    icon="pi pi-times" 
+                    className="p-button-rounded p-button-outlined p-button-danger" 
+                    tooltip='Deletar Dependente' tooltipOptions={{position: 'top'}}
+                />  
+            </React.Fragment>
+        );
+    }
 
     useEffect(() => {
         productService.getDependentesSmall().then(data => setDependentes(data));
@@ -27,6 +52,7 @@ const ListagemDependente: React.FC = ()=>{
                     <Column field="nome" header="Nome" sortable></Column>
                     <Column field="documento" header="Documento" sortable></Column>
                     <Column field="dataNascimento" header="Data Nascimento" sortable></Column>
+                    <Column body={actionBodyTemplate} header='Opções'exportable={false} style={{ minWidth: '8rem' }}></Column>
                 </DataTable>
             </div>
         </div>

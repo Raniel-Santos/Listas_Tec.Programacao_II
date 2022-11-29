@@ -28,7 +28,7 @@ const ListagemHospedagem: React.FC = () =>{
             <React.Fragment>
                 <Button
                     icon="pi pi-user" 
-                    className="p-button-rounded p-button-outlined " 
+                    className="p-button-rounded p-button-outlined p-button-info " 
                     onClick={visualizarHospede}
                     tooltip='Visualizar Hóspede' tooltipOptions={{position: 'top'}}/> 
             </React.Fragment>

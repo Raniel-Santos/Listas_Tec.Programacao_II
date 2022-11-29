@@ -44,4 +44,9 @@
     border: 1px solid;
 }
 
+.p-button.p-button-info.p-button-outlined, .p-buttonset.p-button-info > .p-button.p-button-outlined, .p-splitbutton.p-button-info > .p-button.p-button-outlined, .p-fileupload-choose.p-button-info.p-button-outlined {
+    background-color: transparent;
+    color: rgb(180, 241, 241);
+    border: 1px solid;
+}
 

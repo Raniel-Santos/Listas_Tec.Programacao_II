@@ -32,7 +32,7 @@
 }
 
 .tabela{
-    margin-top: 1rem;
+    margin-top: 1rem !important;
 }
 
 .p-datatable .p-column-header-content {
@@ -47,7 +47,7 @@
     border-width: 0 0 1px 0;
     font-weight: 700;
     color: #343a40;
-    background: #dee2e6;
+    background: rgb(180, 241, 241);
     transition: box-shadow 0.2s;
 }
 
@@ -61,6 +61,6 @@
 
 .p-button.p-button-outlined {
     background-color: transparent;
-    color: aqua;
+    color: #dee2e6;
     border: 1px solid;
 }
