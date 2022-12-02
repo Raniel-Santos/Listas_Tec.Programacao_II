@@ -16,4 +16,13 @@
  - Branch Lista_04 : [Quarta lista](https://github.com/Raniel-Santos/Listas_Tec.Programacao_II/tree/Lista_04); <br>
  
  
+ <div id='equipe'>
+<h2> 🎓 Equipe de Desenvolvimento </h2>
+
+|Integrantes da Equipe|Linkedin|Github|Avatar|
+|:---------|:-------:|:------:|:------:|
+|Raniel Francisco Santos de Paula|[Linkedin](https://www.linkedin.com/in/raniel-santos-204878222/)| [Github](https://github.com/Raniel-Santos)|
+|Rodrigo Ribeiro dos Santos|[Linkedin](https://www.linkedin.com/in/-rodrigo-ribeiro/)| [Github](https://github.com/rodrigoribeiro027)|
+ 
+ 
 
